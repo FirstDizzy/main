@@ -1,0 +1,171 @@
+.footer {
+  background: linear-gradient(
+    -47deg,
+    rgba(4.050780296325684, 57.52109909057617, 64.8125, 1),
+    rgba(1.77083420753479, 34.63749313354492, 53.125, 1) 100%
+  );
+  box-shadow: 0px 3px 15px 0px rgba(0, 224, 255, 0.93),
+    0px 4px 15px 0px rgba(74, 217, 236, 1),
+    0px 0px 24px 0px rgba(0, 224, 255, 1);
+  position: relative;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 68px;
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 16px;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 32px;
+}
+.footer__link-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.socials__col-tel {
+  font-size: 18px;
+}
+.footer__link-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.socials__col-mail {
+  color: rgba(74, 188, 236, 1);
+  font-size: 18px;
+  text-decoration-line: underline;
+}
+.footer__link-text {
+  color: rgba(116, 125, 129, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.socials__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  width: 100%;
+  position: relative;
+}
+
+.copyright__line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgba(0, 224, 255, 0.2);
+}
+.copyright__text {
+  margin: 0 25px;
+  white-space: nowrap;
+  font-size: 14px;
+  z-index: 1;
+  position: relative;
+}
+
+.footer__copyright::before,
+.footer__copyright::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 150vw;
+  height: 1px;
+  background-color: rgba(0, 224, 255, 0.2);
+}
+
+.footer__copyright::before {
+  right: 100%;
+  margin-top: -0.5px;
+}
+
+.footer__copyright::after {
+  left: 100%;
+  margin-top: -0.5px;
+}
+.footer__logo-afrika {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 25px;
+  gap: 5px;
+}
+.footer__logo-text {
+  color: rgba(116, 125, 129, 1);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1.2;
+  text-transform: uppercase;
+}
+
+.footer__scroll {
+  position: absolute;
+  transform: translate(350%, -50%);
+}
+.scroll-up-btn {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background: #28c3d1;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-up-btn::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: rgba(40, 195, 209, 0.14);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow {
+  transform: rotate(90deg);
+}
+
+.text-vertical {
+  position: absolute;
+  top: 350%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-3800%) rotate(-90deg);
+  white-space: nowrap;
+  margin-top: 22px;
+  font-size: 12px;
+  color: rgba(0, 224, 255, 1);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 27 30" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.000000" height="30.000000" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_0">
+			<effect x="0.000000" y="4.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.25" effectType="dropShadow" stdDeviation="4" radius="0" />
+		</g>
+		<filter id="filter_0" width="22.000000" height="27.000000" x="2.000000" y="3.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_0)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feOffset dx="0.000000" dy="4.000000" in="SourceAlpha" />
+			<feGaussianBlur stdDeviation="1.33333337" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+	</defs>
+	<g id="Сочетание 1">
+		<circle id="Ellipse 6" cx="13.5" cy="13.5" r="13.5" fill="rgb(74,188,236)" />
+		<g filter="url(#filter_0)">
+			<path id="2" d="M16.5946 18.519L9.42661 18.519L9.42661 16.559L13.2906 13.059C13.8319 12.5457 14.1026 12.037 14.1026 11.533C14.1026 11.1783 13.9906 10.8937 13.7666 10.679C13.5426 10.455 13.2439 10.343 12.8706 10.343C12.4879 10.343 12.1706 10.483 11.9186 10.763C11.6666 11.0337 11.5173 11.393 11.4706 11.841L9.21661 11.533C9.32861 10.553 9.73928 9.77833 10.4486 9.209C11.1579 8.63033 12.0073 8.341 12.9966 8.341C13.9859 8.341 14.8306 8.60233 15.5306 9.125C16.2306 9.64767 16.5806 10.399 16.5806 11.379C16.5806 12.0137 16.4313 12.555 16.1326 13.003C15.8433 13.451 15.4139 13.927 14.8446 14.431L12.5486 16.475L16.5946 16.475L16.5946 18.519Z" fill="rgb(8.14583,38.3775,42.5)" fill-rule="nonzero" />
+		</g>
+	</g>
+</svg>
